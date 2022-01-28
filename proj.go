@@ -12,5 +12,6 @@ func main() {
 
 func changeValue(str *string) int {
 	*str = "Abhyam"
+	fmt.Println("committed")
 	return 1
 }
