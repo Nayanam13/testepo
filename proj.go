@@ -10,6 +10,7 @@ func main() {
 
 }
 
-func changeValue(str *string) {
+func changeValue(str *string) int {
 	*str = "Abhyam"
+	return 1
 }
